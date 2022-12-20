@@ -32,6 +32,7 @@ using namespace std;
 			cin>>value[i];
 			totalValue -= value[i];
 			result = totalValue;
+			
 		}
 		cout<<"\n\nSubtraction is : "<<result<<endl;
 	}
