@@ -1,3 +1,10 @@
+/* Name : Jawad wakeel
+   Id : 12025 
+   Section : E
+      BS (SE) 
+   Submitted to : Sir iftikhar alam */
+   
+   
 #include<iostream>
 #include<math.h>
 using namespace std;
@@ -89,7 +96,20 @@ using namespace std;
 	}
 
 	
-
+        void percentage(){
+		double total,obtain;
+		cout<<"\nEnter total number : "; cin>>total;
+		cout<<"\nEnter obtain : "; cin>>obtain;
+		result = (obtain*100) / total;
+		cout<<"\n\nPercentage is : "<<result<<"%";
+	}
+	
+	void cube(){
+		cout<<"\nEnter value : "; cin>>valueOne;
+		result = valueOne * valueOne * valueOne;
+		cout<<"\n\nCube of "<<valueOne<<" is : "<<result;	
+	}
+	
 		
 
 int main() {
