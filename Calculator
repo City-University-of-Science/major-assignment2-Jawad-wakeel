@@ -111,6 +111,49 @@ using namespace std;
 	}
 	
 		
+	void _sin(){
+		cout<<"\nEnter value : "; cin>>valueOne;
+		result = sin(valueOne);
+		cout<<"\n\nSin value is : "<<result;
+	}
+	
+	void _tan(){
+		cout<<"\nEnter value : "; cin>>valueOne;
+		result = tan(valueOne);
+		cout<<"\n\ntan value is : "<<result;
+	}
+	
+	void _cos(){
+		cout<<"\nEnter value : "; cin>>valueOne;
+		result = cos(valueOne);
+		cout<<"\n\ncos value is : "<<result;
+	}
+	
+	void _acos(){
+		cout<<"\nEnter value : "; cin>>valueOne;
+		result = acos(valueOne);
+		cout<<"\n\nacos value is : "<<result;
+	}
+	
+	void _asin(){
+		cout<<"\nEnter value : "; cin>>valueOne;
+		result = asin(valueOne);
+		cout<<"\n\nasin value is : "<<result;
+	}
+	
+	void _atan(){
+		cout<<"\nEnter value : "; cin>>valueOne;
+		result = atan(valueOne);
+		cout<<"\n\natan value is : "<<result;
+	}
+	
+	
+	void _log(){
+		cout<<"\nEnter value : "; cin>>valueOne;
+		result = log(valueOne);
+		cout<<"\n\nLogrithm is : "<<result;
+	}
+	
 
 int main() {
 	char ch;
