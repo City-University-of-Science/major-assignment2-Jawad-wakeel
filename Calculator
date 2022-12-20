@@ -57,6 +57,37 @@ using namespace std;
 		cout<<"\n\nMod is : "<<result;
 	}
 
+	void sqt(){
+		cout<<"\nEnter value : ";
+		cin>>valueOne;
+		result = sqrt(valueOne);
+		cout<<"\n\nSquare root is : "<<result;
+	}
+	
+	void power(){
+		int pow;
+		cout<<"\nEnter vaue : ";cin>>valueOne;
+		cout<<"\nEnter power : ";cin>>pow;
+		result=valueOne;
+		for(int i = 0; i < pow-1; i++){
+				result = result * valueOne;
+		}
+		cout<<"\n\nPower is : "<<result;
+	}
+	
+	void avg(){
+		cout<<"\nEnter the limit of numbers : ";
+		cin>>limit;
+		value[limit];
+		for(int i = 1; i <= limit; i++){
+			cout<<"\nEnter value "<<i<<" : ";
+			cin>>value[i];
+			result += value[i];
+		}
+		result = result/limit;
+		cout<<"\n\nAverage is : "<<result;
+	}
+
 	
 
 		
