@@ -37,6 +37,29 @@ using namespace std;
 		cout<<"\n\nSubtraction is : "<<result<<endl;
 	}
 	
+	void divide(){
+		cout<<"\nEnter value 1 : ";cin>>valueOne;
+		cout<<"\nEnter value 2 : ";cin>>valueTwo;
+		if(valueTwo != 0){
+		result = valueOne;
+		result = result / valueTwo;
+		cout<<"\n\nDivision is : "<<result;
+		}
+		else{
+			cout<<"\n\ncan't divide by zero.";
+		}
+	}
+	
+	void mod(){
+		cout<<"\nEnter value 1 : ";cin>>valueOne;
+		cout<<"\nEnter value 2 : ";cin>>valueTwo;
+		result = static_cast<int>(valueOne) % static_cast<int>(valueTwo);
+		cout<<"\n\nMod is : "<<result;
+	}
+
+	
+
+		
 
 int main() {
 	char ch;
